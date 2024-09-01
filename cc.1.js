@@ -9,3 +9,14 @@ console.log(employeeID, typeof(employeeID));
 console.log(isActive, typeof(isActive));
 
 
+// Task 2: Compound Data Types
+
+let products = ["IPhone 12", "LG Remote", "OmniBreeze Fan"];
+const productDetails = {
+    name: products,
+    price: 3400,
+    inStock: 5,
+}
+
+console.log(products, productDetails);
+
